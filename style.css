@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1f5f5e;
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+}
+
+header p {
+    margin-top: 0.3rem;
+    color: #1a191a;
+}
+
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Task Input */
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-input button {
+    padding: 10px 20px;
+    background-color: #1f5f5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-input button:hover {
+    background-color: #16866e;
+}
+
+/* Lists */
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #212121;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.task-time {
+    font-size: 0.8rem;
+    color: #777;
+    margin-right: 15px;
+}
+
+/* Buttons */
+button.complete-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button.edit-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    opacity: 0.8;
+}

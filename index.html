@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>TRASKER</h1>
+        <p>Your daily tasks digital table</p>
+    </header>
+
+    <div class="container">
+        <!-- Add Task -->
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <!-- Pending Tasks -->
+        <section>
+            <h2>Pending Tasks</h2>
+            <ul id="pendingList"></ul>
+        </section>
+
+        <!-- Completed Tasks -->
+        <section>
+            <h2>Completed Tasks</h2>
+            <ul id="completedList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
