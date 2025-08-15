@@ -1,4 +1,4 @@
-# 📝 Functional To-Do App
+# 📝 Trasker : A Functional To-Do App
 
 A basic *Todo List application* made with *HTML, CSS, and JavaScript*.  
 You can add tasks, mark them as completed, edit them, and delete them.  
